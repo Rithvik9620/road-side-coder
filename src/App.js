@@ -1,8 +1,8 @@
 import "./App.css";
 import { useState } from "react";
-import explorerData from "./data/explorerData";
-import Folder from "./components/Folder";
-import useTreeHook from "./hooks/use-tree-hook";
+import explorerData from "./file-system/data/explorerData";
+import Folder from "./file-system/components/Folder";
+import useTreeHook from "./file-system/hooks/use-tree-hook";
 
 function App() {
   const [explorerDateTree, setExplorerDataTree] = useState(explorerData);
